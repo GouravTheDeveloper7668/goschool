@@ -313,7 +313,7 @@
 
         .btn-demo {
             background: linear-gradient(135deg, var(--amber), var(--amber-d));
-            color: #000 !important;
+            color: #ffffff !important;
             padding: 9px 20px !important;
             border-radius: 50px;
             font-weight: 700 !important;
@@ -328,6 +328,7 @@
 
         .btn-demo:hover {
             transform: translateY(-2px);
+            color: #fff !important;
             box-shadow: 0 8px 24px rgba(245, 158, 11, .45) !important
         }
 
@@ -348,6 +349,7 @@
 
         .btn-login:hover {
             transform: translateY(-2px);
+            color: #fff !important;
             box-shadow: 0 8px 24px rgba(245, 158, 11, .45) !important
         }
 
