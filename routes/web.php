@@ -12,3 +12,11 @@ Route::get('/login', function () {
 Route::get('/dashboard', function () {
     return view('dashboard');
 })->name('dashboard');
+
+Route::get('phpversion', function () {
+    return phpinfo();
+});
+
+Route::get('/tally', function () {
+    return view('tally');
+})->name('tally');
